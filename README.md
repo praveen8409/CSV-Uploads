@@ -1,72 +1,64 @@
-# CSV-Upload
-      |            
-      |             | _css===============|=========================|
-      |             |_imgs               |                         |
-      |__assets-----|                  csv.css                  home.css
-      |             |_js==csv.js
-      |
-      |__config====mongoose.js
-      |                                     
-      |                                     |==csv_controller.js
-      |__controllers------------------------|
-      |                                     |==home_controller.js
-      |                | ==csv.js                      
-      |__routes--------|
-      |                | ==index.js
-      |  
-      |__.gitignore
-      |
-      |
-      |__uploads=======csv
-      |                           |
-      |                           |==csv.ejs
-      |__views=====================
-      |                           |==home.ejs
-      |                           |
-      |__index.js
-      |
-      |
-      |__package-lock.json
-      |
-      |
-      |__packsage.json
+<h1 align="center" id="title">CSV Uploads</h1>
 
+<p align="center"><img src="https://socialify.git.ci/praveen8409/CSV-Uploads/image?font=KoHo&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
+<p id="description">project allows you to upload CSV files display the data in them and perform various operations on the data.</p>
 
+<p align="center"><img src="https://img.shields.io/badge/any_text-you_like-blue" alt="shields"></p>
 
+<h2>🚀 Demo</h2>
 
+[https://csv-uploads-782g.onrender.com/](https://csv-uploads-782g.onrender.com/)
 
+<h2>Project Screenshots:</h2>
 
+<img src="https://github.com/praveen8409/IMG/blob/master/csv1.png?raw=true" alt="project-screenshot" width="400" height="400/">
 
-**======================CSV Upload====================**
-This project allows you to upload CSV files, display the data in them, and perform various operations on the data.
+<img src="https://github.com/praveen8409/IMG/blob/master/csv2.png?raw=true" alt="project-screenshot" width="400" height="400/">
 
-**======================Project Setup==================**
-Follow these steps to set up the project on your local system:
-1.Clone the repository or create a new project directory.
-2.Make sure you have Node.js and npm (Node Package Manager) installed on your system.
-3.Open a terminal or command prompt and navigate to the project directory.
-4.Run the following command to initialize a new Node.js project:
-      i.npm init
-     ii.npm install express
-    iii.npm install express-ejs
-     vi.npm install mongoose
-      v.npm install multer
-      vi.npm install csv-parser
-5.Create the folder structure as shown above
-6.Start the server by running the following command in the terminal:
- i) nodemon index.js
-
-
-
-
-**=============================URLs=======================================**
-            1.localhost:8000  (home Page)(GET)
-            2.localhost:8000/create/up (POST)
-            3.localhost:8000/create/view/:id (GET)
-            4.localhost:8000/created/delete/:id (GET)
-
-
- 
   
+  
+<h2>🧐 Features</h2>
 
+Here're some of the project's best features:
+
+*   CSV File Upload: Users can upload CSV (Comma-Separated Values) files through a user-friendly interface.
+*   Data Display: The uploaded CSV data is parsed and displayed in a structured format such as a table on the web application's interface.
+*   Search Bar: The application includes a search bar that allows users to input search queries.
+*   Data Fetching: Upon entering a search query in the search bar the application retrieves and displays relevant data from the uploaded CSV files.
+*   Search Filters: Users can potentially apply filters to refine their search results such as by specifying certain columns date ranges or specific values.
+*   Responsive Interface: The application's interface is designed to be responsive ensuring a consistent and user-friendly experience across different devices and screen sizes.
+*   Pagination: If dealing with large datasets implement pagination to display a manageable number of records per page enhancing performance and user experience
+*   Data Visualization (Optional): As an enhancement you could provide basic data visualization options like graphs or charts to help users understand the data visually.
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. .Clone the repository or create a new project directory</p>
+
+<p>2. Make sure you have Node.js and npm (Node Package Manager) installed on your system</p>
+
+<p>3. Open a terminal or command prompt and navigate to the project directory</p>
+
+<p>4. Run the following command to initialize a new Node.js project:</p>
+
+```
+npm install
+```
+
+<p>5. Start the server</p>
+
+```
+nodemon index.js
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Node Js
+*   Mongodb Atlas
+*   CSS
+*   Express JS
+*   VS CODE
